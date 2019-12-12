@@ -1,0 +1,12 @@
+## First push to a newly created repo
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sakib17/git-essentials-command.git
+git push -u origin master
+
+## Push and Commit
+git add .
+git commit -m "commit msg"
+git push orgin branch_name
+
