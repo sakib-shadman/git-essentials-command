@@ -22,3 +22,5 @@ Reset the upstream branch for the new-name local branch.
 Switch to the branch and then:
 git push origin -u new-name
 
+## Set/Change origin url
+git remote set-url origin https://shadman_sakib@bitbucket.org/vivacomsolution/pi-ticketing-android.git
