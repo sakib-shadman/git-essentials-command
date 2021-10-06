@@ -29,3 +29,6 @@ git remote set-url origin https://shadman_sakib@bitbucket.org/vivacomsolution/pi
 git log
 ##See git log in format
 git log --pretty=oneline --abbrev-commit
+
+## Force push after rebase
+git push -f origin <branch_name>
