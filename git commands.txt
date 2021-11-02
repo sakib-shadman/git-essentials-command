@@ -32,3 +32,10 @@ git log --pretty=oneline --abbrev-commit
 
 ## Force push after rebase
 git push -f origin <branch_name>
+
+# Git flow integration
+git flow init
+Set main as release branch
+Set develop as integration branch for release
+Set supporting branch prefixes
+git flow feature start <branch_name>
